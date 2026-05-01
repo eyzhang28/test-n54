@@ -1,3 +1,5 @@
+"""FastAPI health check endpoint."""
+
 from fastapi import FastAPI
 
 
