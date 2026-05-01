@@ -1,9 +1,5 @@
 from fastapi import FastAPI
-
-
 app = FastAPI()
-
-
 @app.get("/health")
-def health_check() -> dict[str, str]:
+def health():
     return {"status": "ok", "version": "2.1"}
